@@ -113,6 +113,8 @@ True
 
 [Arithmetic](https://en.wikipedia.org/wiki/Arithmetic) [expressions](<https://en.wikipedia.org/wiki/Expression_(mathematics)>) consist of arithmetic terms that are combined by arithmetic operations.
 
+![Expression Operators & Operands](expression_operators_operands.jpg)
+
 The basic arithmetic operations are addition, subtraction, multiplication and division.
 
 | Operator | Name           | Meaning                                                                           |
