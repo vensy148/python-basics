@@ -1,6 +1,6 @@
 # Python Basics
 
-![Python Logo](python_logo.svg)
+![Python Logo](python_logo.png)
 
 [Python](https://www.python.org/) is a programming language, first released in 1991.
 

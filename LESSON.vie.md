@@ -1,6 +1,6 @@
 # Python Basics
 
-![Python Logo](python_logo.svg)
+![Python Logo](python_logo.png)
 
 [Python](https://www.python.org/) là một ngôn ngữ lập trình, được ra mắt lần đầu tiên vào năm 1991.
 
