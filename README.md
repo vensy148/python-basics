@@ -10,7 +10,7 @@ $ git clone `http://gitlab-students.int.intek.edu.vn/sm/intek-sm-python_basics.g
 $ cd intek-sm-python_basics
 ```
 
-Create a file `python_basic.py` where you will write in all the functions of this mission.
+Create a file `python_basics.py` where you will write in all the functions of this mission.
 
 # Waypoint 1: Say Greeting
 

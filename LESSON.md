@@ -481,15 +481,13 @@ For example:
 
 ## Basic Data Structures
 
-Primitive data types are not enough to write complex programs. You need to manipulate a lot of data. You need to group them to process them.
-
-You need more complex data types for various purposes.
+Primitive data types are not enough to write complex programs. Your program will probably need to manipulate a lot of data. You need to group data to ease their processing.
 
 Python provides several data types to group data together:
 
 | Name                                                                              | Description                                                                                                                                                                                                                                                                                                     | Examples                                                 |
 | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
-| [list](https://docs.python.org/3/library/stdtypes.html#lists)                     | Unordered and [**mutable** (inverse of mutable)](https://en.wikipedia.org/wiki/Immutable_object) [collection])https://www.youtube.com/watch?v=tw7ror9x32s with possibly duplicate elements                                                                                                                      | `[2, 2, True, 0.65, "Hello!"]`                           |
+| [list](https://docs.python.org/3/library/stdtypes.html#lists)                     | Unordered and [**mutable** (inverse of mutable)](https://en.wikipedia.org/wiki/Immutable_object) [collection](https://www.youtube.com/watch?v=tw7ror9x32s) with possibly duplicate elements                                                                                                                      | `[2, 2, True, 0.65, "Hello!"]`                           |
 | [tuple](https://docs.python.org/3/library/stdtypes.html#tuples)                   | Unordered and [immutable](https://en.wikipedia.org/wiki/Immutable_object) collection with possibly duplicate elements                                                                                                                                                                                           | `(False, 1, "Việt Nam", 3.14, False)`                    |
 | [set](https://docs.python.org/3/library/stdtypes.html#set-types-set-frozenset)    | Unordered [collection](https://www.youtube.com/watch?v=2u_ZExcNBzA) with no duplicate elements                                                                                                                                                                                                                  | {1, 2, 3}                                                |
 | [dictionary](https://docs.python.org/3/tutorial/datastructures.html#dictionaries) | Unordered collection of [key/value pairs](https://en.wikipedia.org/wiki/Attribute%E2%80%93value_pair) (i.e., [associative array](https://en.wikipedia.org/wiki/Associative_array)), where each key is unique in the [collection](https://www.youtube.com/watch?v=ZEZdys-fHDw), with possibly duplicate elements | `{1: 2.5, 'username': 'lythanhphu', 'is_student': True}` |
@@ -1070,7 +1068,7 @@ _Note: Before starting to code a new killer function, you SHOULD definitively ch
 
 ### Third-Party Packages
 
-Even if [Python Standard Library](https://docs.python.org/3/library/) has numerous modules with many functions and many, commonly used in Python programs, it does not contain functions that are related to very specific domains such [computer vision](https://opencv.org/), [machine learning](https://www.tensorflow.org/), [web server development](https://www.djangoproject.com/), [image processing](https://python-pillow.org/), and many others.
+Even if [Python Standard Library](https://docs.python.org/3/library/) has numerous modules with many functions, commonly used in Python programs, it does not contain functions that are related to very specific domains such [computer vision](https://opencv.org/), [machine learning](https://www.tensorflow.org/), [web server development](https://www.djangoproject.com/), [image processing](https://python-pillow.org/), and many others.
 
 They are many of Python developers who contributes to adding more functions to Python.
 
@@ -1142,9 +1140,9 @@ The code of our project generally depends on many third-party Python libraries. 
 [Pipenv](https://realpython.com/pipenv-guide/) solves all these problems:
 
 1. creating an isolated environment for a software project;
-1. installing a new third-party library with a specific version (while you are developing your software project);
-1. keeping track of all the third-party libraries your project depends on;
-1. installing all the dependencies for a software project (when another developer wants to use your project).
+2. installing a new third-party library with a specific version (while you are developing your software project);
+3. keeping track of all the third-party libraries your project depends on;
+4. installing all the dependencies for a software project (when another developer wants to use your project).
 
 First, you need to [install `pipenv`](https://www.youtube.com/watch?v=6Qmnh5C4Pmo) using `pip`:
 
