@@ -140,7 +140,7 @@ For examples:
 
 Write a function `calculate_euclidean_distance_between_2_points` that takes two arguments `p1` and `p2`, representing points in a [two-dimensional Cartesian coordinate system](https://en.wikipedia.org/wiki/Cartesian_coordinate_system), and that returns the [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance) between `p1` and `p2`.
 
-![Cartesian Coordinate System](cartesian-coordinate-system.svg)
+![Cartesian Coordinate System](cartesian-coordinate-system.png)
 
 The arguments `p1` and `p2` are each represented with a tuple of 2 integers or floats `(x, y)` where `x` corresponds to the position of the point on the X-axe (i.e, abscissa), and `y` corresponds to the position of the point on the Y-axe (i.e., ordinate).
 

@@ -765,7 +765,7 @@ _Lưu ý: Có thể bạn vẫn chưa quen với các modules của Python. Chú
 Một [**function**](https://www.youtube.com/watch?v=NSbOtYzIQI0) (hàm) là một khối mã lệnh, có thể tái sử dụng và được dùng để thực hiện một hành động. Hàm có tính module cao và có thể sử dụng lại nhiều lần trong một phần mềm ứng dụng.
 
 
-![Function Basic Principle](function_basic_principle.svg)
+![Function Basic Principle](function_basic_principle.png)
 
 ### Function Definition (định nghĩa hàm)
 

@@ -761,7 +761,7 @@ _Note: You may not be familiarized with Python modules yet. We are presenting th
 
 A [**function**](https://www.youtube.com/watch?v=NSbOtYzIQI0) is a block of organized and reusable code that is used to perform a single related action. Functions provide better modularity for your application and a high degree of code reusing.
 
-![Function Basic Principle](function_basic_principle.svg)
+![Function Basic Principle](function_basic_principle.png)
 
 ### Function Definition
 
