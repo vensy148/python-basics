@@ -6,7 +6,7 @@ Clone the Git repository `intek-sm-python_basics.git` in your `Devel` repository
 
 ```bash
 $ cd ~/Devel
-$ git clone `http://gitlab-students.int.intek.edu.vn/sm/intek-sm-python_basics.git`.
+$ git clone `http://gitlab.intek.edu.vn/sm/intek-sm-python_basic-playground/{{username}}.git`.
 $ cd intek-sm-python_basics
 ```
 
@@ -142,7 +142,7 @@ Write a function `calculate_euclidean_distance_between_2_points` that takes two 
 
 ![Cartesian Coordinate System](cartesian-coordinate-system.svg)
 
-The argument `p1` and `p2` are each represented with a tuple of 2 integers or floats `(x, y)` where `x` corresponds to the position of the point on the X-axe (i.e, abscissa), and `y` corresponds to the position of the point on the Y-axe (i.e., ordinate).
+The arguments `p1` and `p2` are each represented with a tuple of 2 integers or floats `(x, y)` where `x` corresponds to the position of the point on the X-axe (i.e, abscissa), and `y` corresponds to the position of the point on the Y-axe (i.e., ordinate).
 
 For examples:
 
@@ -159,7 +159,7 @@ For examples:
 
 Write a function `calculate_euclidean_distance_between_points` that takes an arguments `points`, representing a list of points in a [two-dimensional Cartesian coordinate system](https://en.wikipedia.org/wiki/Cartesian_coordinate_system), and that returns the sum of the [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance) between each consecutive points in this list.
 
-Each points in the list is represented with a tuple of 2 integers or floats `(x, y)` where `x` corresponds to the position of the point on the X-axe (i.e, abscissa), and `y` corresponds to the position of the point on the Y-axe (i.e., ordinate).
+Each point in the list is represented with a named tuple of 2 integers or floats `(x, y)` where `x` corresponds to the position of the point on the X-axe (i.e, abscissa), and `y` corresponds to the position of the point on the Y-axe (i.e., ordinate).
 
 The function raises an[ exception `ValueError`](https://docs.python.org/3.7/library/exceptions.html#ValueError) if the given list contains less than 2 points.
 
@@ -700,7 +700,7 @@ For example:
  './sounds/piano/C3.ogg']
 ```
 
-_Note: you may face an issue where you function only plays a few notes, and then, you don't hear anything. The reason of this phenomenon is that `pygame` only supports 8 channels by default, i.e., it can only play 8 notes at the same time._
+_Note: your function may only play a few notes, and then, you don't hear anything. The reason of this phenomenon is that `pygame` only supports 8 channels by default, i.e., it can only play 8 notes at the same time._
 
 _You might think that you are playing notes one after one other, but your code may be playing a new note while the previous note is stilly playing. If you look closely to the `.ogg` files, the total duration of a note is several seconds._
 
@@ -712,7 +712,7 @@ _To fix this issue, your code must request `pygame` to [stop](https://www.pygame
 
 ## Melody Player: Improvement
 
-You may have noticed that the directory `./sounds/piano` doesn't contain accidentals **sharp** (♯) notes. It only contain accidentals **flat** (♭) notes.
+You may have noticed that the directory `./sounds/piano` doesn't contain accidental **sharp** (♯) notes. It only contain accidentals **flat** (♭) notes.
 
 We have said that accidental **sharp** (♯) raises a note by a semitone, while accidental **flat** (♭) lowers a note by the same amount. It means that a note with the accidental **sharp** is equivalent to the next note with the accidental **flat**. For instance, `F♯4` is equivalent to `G♭4`.
 
