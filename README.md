@@ -7,8 +7,10 @@ Clone the Git repository `intek-sm-python_basics.git` in your `Devel` repository
 ```bash
 $ cd ~/Devel
 $ git clone `http://gitlab.intek.edu.vn/sm/intek-sm-python_basic-playground/{{username}}.git`.
-$ cd intek-sm-python_basics
+$ cd {{username}}
 ```
+
+_Note: `{{username}}` corresponds to your username without `{{` and `}}`._
 
 Create a file `python_basics.py` where you will write in all the functions of this mission.
 
@@ -140,7 +142,7 @@ For examples:
 
 Write a function `calculate_euclidean_distance_between_2_points` that takes two arguments `p1` and `p2`, representing points in a [two-dimensional Cartesian coordinate system](https://en.wikipedia.org/wiki/Cartesian_coordinate_system), and that returns the [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance) between `p1` and `p2`.
 
-![Cartesian Coordinate System](cartesian-coordinate-system.png)
+![Cartesian Coordinate System](cartesian-coordinate-system.svg)
 
 The arguments `p1` and `p2` are each represented with a tuple of 2 integers or floats `(x, y)` where `x` corresponds to the position of the point on the X-axe (i.e, abscissa), and `y` corresponds to the position of the point on the Y-axe (i.e., ordinate).
 
