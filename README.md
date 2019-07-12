@@ -409,7 +409,7 @@ ValueError: Not a positive integer string expression
 
 Write a function `is_palindrome` that takes an argument `value` of any type and that returns `True` is the string representation of this value is a [palindrome](https://en.wikipedia.org/wiki/Palindrome) or `False` otherwise.
 
-The function only retains ASCII characters and digits. It ignores any other characters.
+The function only retains ASCII letter characters ([`string.ascii_letters`](https://docs.python.org/3.7/library/string.html#string.ascii_letters)) and digits ([`string.digits`](https://docs.python.org/3.7/library/string.html#string.digits)). It ignores any other characters.
 
 The function is not [case-sensitive](https://en.wikipedia.org/wiki/Case_sensitivity), i.e, uppercase and lowercase characters are treated as equivalent.
 
